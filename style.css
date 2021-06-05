@@ -1,0 +1,63 @@
+body{
+     background-size: 7in 7in;
+     background-position: center;
+     height: 720px;
+}
+
+.heading{
+     font-size: 23px;
+     width: 100%;
+     margin: 0px;
+     box-shadow: 5px 5px 5px gray;
+}
+
+.heading_div{
+     float: none;
+     background-color: white;
+     padding: 10px;
+     border-radius: 20px;
+     color: black;
+     box-shadow: 5px 5px 5px gray;
+}
+
+.heading_div2{
+     font-size: 18px;
+}
+
+.result_para_tag{
+     box-shadow: 5px 5px 5px grey;
+     font-size: 20px;
+}
+
+.copy_right_footer{
+     position: fixed;
+     z-index: 99;
+     color: white;
+     bottom: 0;
+     width: 100%;
+     background-color: gray;
+     line-height: 3;
+     text-align: center;
+     margin-top: 100px;
+}
+
+canvas{
+     border: 5px solid white;
+     border-radius: 20px;
+     animation-name: change;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     margin-top: 180px;
+
+}
+
+@keyframes change{
+     from{
+          box-shadow: 5px 5px 12px blue;
+     }
+
+     to{
+          box-shadow: 5px 5px 12px yellow;
+
+     }
+}
